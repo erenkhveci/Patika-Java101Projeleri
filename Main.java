@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Main{
+public class NotOrtalamasi{
     public static void main(String[] args) {
         int mat,fizik,kimya,turkce,tarih,muzik;
         Scanner sc = new Scanner(System.in);
