@@ -13,7 +13,7 @@ public class BasicUserLogin {
             System.out.println("Bilgillerinizi yanlış girdiniz!");
             System.out.print("Şifrenizi Sıfırlamak İster Misiniz? (E veya H)");
             sifirlama=sc.nextLine();
-            if(sifirlama.equals("E")){
+            if(sifirlama.equalsIgnoreCase("E")){
                 System.out.print("Yeni Şifrenizi Giriniz :");
                 newPassword=sc.nextLine();
                 if(!(newPassword.equals("java123"))){
@@ -23,7 +23,7 @@ public class BasicUserLogin {
                     System.out.println("Şifre oluşturulamadı, lütfen başka şifre giriniz.");
 
                 }
-            }else if(sifirlama.equals("H")){
+            }else if(sifirlama.equalsIgnoreCase("H")){
                 System.out.println("Have a Nice Day(Bon Jovi)");
             }else{
                 System.out.println("E veya H şeklinde giriniz");
