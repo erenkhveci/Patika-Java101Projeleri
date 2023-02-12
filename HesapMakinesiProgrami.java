@@ -18,8 +18,9 @@ public class HesapMakinesiProgrami {
                 System.out.println("sonucunuz .:"+result);break;
             case 3 : result=n1*n2;
                 System.out.println("sonucunuz .:"+result);break;
-            case 4 : result=n1/n2;
-                System.out.println("sonucunuz .:"+result);break;
+            case 4 :
+                System.out.println("sonucunuz .:"+((n2==0) ? "Bir sayı sıfıra bölünemezz." : n1/n2 )); break;
+
             default: System.out.println("Yanlış Seçim Yaptınız");
         }
     }
