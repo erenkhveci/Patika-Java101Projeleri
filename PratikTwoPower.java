@@ -7,7 +7,7 @@ public class PratikTwoPower {
         System.out.print("Sayıyı giriniz : ");
         number=sc.nextInt();
 
-        while(true){
+
 
             for(i=1;i<number;i*=4){
 
@@ -16,8 +16,6 @@ public class PratikTwoPower {
             for(i=1;i<number;i*=5){
                 System.out.println("girilen sayıya kadar olan 5 ün kuvvetleri : "+ i);
             }
-            break;
 
-    }
 }
 }
