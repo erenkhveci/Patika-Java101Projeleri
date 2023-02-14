@@ -4,7 +4,7 @@ public class EbobEkok {
     public static void main(String[] args) {
         Scanner sc= new Scanner(System.in);
         int n1,n2,ek,i=1;
-        String ebob="";
+        int ebob=1;
         System.out.print("İlk sayıyı giriniz :");
         n1=sc.nextInt();
         System.out.print("İkinci sayıyı giriniz :");
@@ -16,7 +16,7 @@ public class EbobEkok {
         }
         while(ek>=1){
            if(n1%ek==0&& n2%ek==0){
-                ebob+=ek;
+                ebob=ek;
 
            break;
            }
@@ -37,7 +37,7 @@ public class EbobEkok {
             }
 
         }*/
-
+        System.out.println("Formülü ile çözümünde Ekok :"+((n1*n2)/ebob));
     }
 
 }
