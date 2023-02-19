@@ -1,6 +1,6 @@
 package Arrays;
 
-public class ArrayHarmocicSum{
+public class ArrayHarmonicSum{
     static double arrayHarmonicSum(int[] arr){
         double harmonic=1;
         for (int i=0;i<arr.length;i++){
